@@ -1,0 +1,19 @@
+# Normalize line endings for text files
+* text=auto
+
+# Unity YAML assets: keep as text for diffs
+*.unity text
+*.prefab text
+*.asset text
+*.meta text
+*.mat text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.fbx binary
+*.glb binary
+*.wav binary
+*.mp3 binary
+*.ttf binary
+*.dll binary
