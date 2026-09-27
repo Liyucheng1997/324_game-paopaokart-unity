@@ -36,3 +36,7 @@ crashlytics-build.properties
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Published Unity WebGL runtime
+!docs/Build/
+!docs/Build/**
