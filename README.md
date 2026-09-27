@@ -42,3 +42,12 @@ Assets/KartGame/
 - 本项目通过 [MCP for Unity](https://github.com/CoplayDev/unity-mcp) 由 Claude Code 驱动 Unity 编辑器开发完成
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+
+## GitHub Pages 网页版
+
+https://liyucheng1997.github.io/324_game-paopaokart-unity/
+
+建议使用桌面浏览器与键盘，首次需加载约 23 MB。`docs/` 是 Unity WebGL 导出产物，使用无压缩输出以适配 Pages 响应头。
+
+修改游戏后，使用 Unity 的 `-batchmode -quit -buildTarget WebGL -executeMethod KartGame.Editor.PagesBuild.Build` 导出到 `Builds/WebGL`，复制产物到 `docs/` 并提交；Actions 自动发布。
